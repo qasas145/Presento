@@ -322,9 +322,9 @@ h1, h2, h3, h4, h5, h6 {
 .tabs 
 {
     position: relative;
-    height: 600px;
+    height: 500px;
     margin-top: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 .tabs .tab-pane p 
 {
@@ -360,6 +360,10 @@ h1, h2, h3, h4, h5, h6 {
     .tabs .tab-pane p 
     {
         font-size: 14px;
+    }
+    .tabs 
+    {
+        margin-bottom: 100px;
     }
 }
 /* style of the tab of the sevices  */
