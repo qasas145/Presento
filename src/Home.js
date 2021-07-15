@@ -92,6 +92,9 @@ const Home=()=>{
     const closeModal=()=>{
         setVisible(false)
     }
+    const scrollToTop=()=>{
+        window.scrollTo(0, 0)
+    }
     return (
         <div>
             <Navbar id="header" className="fixed-top w-100% bg-white">
@@ -100,7 +103,7 @@ const Home=()=>{
                         width :"100%"
                     }}>
                         <div className="col-2">
-                            <NavbarBrand href="/home" className="text text-dark" style={{
+                            <NavbarBrand onClick={scrollToTop} href="/home" className="text text-dark" style={{
                                 fontSize :"30px",
                                 fontWeight :"600"
                             }}>Presento<span className="text text-danger">.</span></NavbarBrand>
@@ -153,11 +156,11 @@ const Home=()=>{
                             lineHeight :"80px"
                         }}>
                             <h1 className="text text-white">Bettter digital experience with Presento</h1>
-                            <h3 className="text text-white" style={{
-                                fontWeight :"500"
-                            }}>We are team of talented designers making websites with Bootstrap</h3>
+                            <h4 className="text text-white" style={{
+                                fontWeight :"400"
+                            }}>We are team of talented designers making websites with Bootstrap</h4>
                             <Link to="/home" className="btn btn-danger" style={{
-                                fontSize :"24px"
+                                fontSize :"20px"
                             }}>Get Started</Link>
                         </div>
                     </div>
@@ -761,9 +764,9 @@ const Home=()=>{
                             <button style={{fontSize :"16px",fontWeight :"500"}} class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Options
                             </button>
-                            <div className="dropdown-menu" style={{marginLeft :"115px"}} aria-labelledby="dropdownMenuButton">
-                                <Link style={{fontSize :"16px",fontWeight :"500", textAlign: "center"}} to="/home" className="dropdown-item" href="#">Visit</Link>
-                                <Link style={{fontSize :"16px",fontWeight :"500", textAlign: "center"}} to="/home" className="dropdown-item" href="#">Buy</Link>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <Link style={{fontSize :"16px",fontWeight :"500", textAlign: "center"}} to="/home" className="dropdown-item border-bottom" href="#">Visit</Link>
+                                <Link style={{fontSize :"16px",fontWeight :"500", textAlign: "center"}} to="/home" className="dropdown-item border-bottom" href="#">Buy</Link>
                                 <Link style={{fontSize :"16px",fontWeight :"500", textAlign: "center"}} to="/home" className="dropdown-item" href="#">Store</Link>
                             </div>
                         </center>

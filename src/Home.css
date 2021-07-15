@@ -197,10 +197,22 @@ h1, h2, h3, h4, h5, h6 {
             text-align: center;
         }
 }
-@media screen and (max-width:509px){
+@media screen and (max-width:600px){
+    #content_data h4 
+    {
+        font-size: 20px;
+    }
+    #content_data .fa 
+    {
+        font-size: 35px;
+    }
+    #content_sec p 
+    {
+        font-size: 14px;
+    }
     .section-bg h3 
     {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 /* header not but the main  */
@@ -328,6 +340,28 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 4px;
     color: #e03a3c;
 }
+@media screen and (max-width:600px){
+    .tabs .tab-pane ul li 
+    {
+        font-size: 14px;
+    } 
+    .tabs .tab-pane ul i 
+    {
+        font-size: 16px;
+    }
+    .tabs .nav-item i 
+    {
+        font-size: 25px;
+    }
+    .tabs .tab-pane h3 
+    {
+        font-size:20px;
+    }
+    .tabs .tab-pane p 
+    {
+        font-size: 14px;
+    }
+}
 /* style of the tab of the sevices  */
 .services:before 
 {
@@ -433,6 +467,14 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 @media screen and (max-width:1000px){
+    #tabs_data h3
+    {
+        font-size: 20px;
+    }
+    #tabs_data i
+    {
+        font-size: 30px;
+    } 
     #tabs_data #card  #col-text p 
     {
         text-align:center;
@@ -452,8 +494,24 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
 }
-
-
+@media screen and (max-width:600px){
+    #data-services h2
+    {
+        font-size: 25px;
+    }
+    #data-services p
+    {
+        font-size: 16px;
+    }
+    #tabs_data #card  #col-text p 
+    {
+        font-size: 15px;
+    }
+    #tabs_data 
+    {
+        margin-left: 3px;
+    }
+}
 /* style of the filter_list */
 #filter_list li 
 {
@@ -690,6 +748,28 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
 }
+@media screen and (max-width:600px){
+    .pricing .section-tittle h2 
+    {
+        font-size: 30px;
+    }
+    .pricing .section-tittle p 
+    {
+        font-size: 14px;
+    }
+    #card-one p 
+    {
+        font-size: 14px;
+    }
+    #card-one h3 
+    {
+        font-size: 25px;
+    }
+    #card-one h4 
+    {
+        font-size: 25px;
+    }
+}
 /* this the style of the faq section  */
 .faq .section-tittle span 
 {
@@ -755,6 +835,19 @@ h1, h2, h3, h4, h5, h6 {
 .faq 
 {
     margin-top: 60px;
+}
+@media screen and (max-width:600px){
+    .faq ul li div 
+    {
+        font-size: 14px;
+    }
+    .faq .section-tittle 
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
 /* this the style of the footer in this app  */
 .footer ul  li
