@@ -103,9 +103,10 @@ const Home=()=>{
                         width :"100%"
                     }}>
                         <div className="col-2">
-                            <NavbarBrand onClick={scrollToTop} href="/home" className="text text-dark" style={{
+                            <NavbarBrand onClick={scrollToTop} className="text text-dark" style={{
                                 fontSize :"30px",
-                                fontWeight :"600"
+                                fontWeight :"600",
+                                cursor :"pointer"
                             }}>Presento<span className="text text-danger">.</span></NavbarBrand>
                         </div>
                         <div className="col-10 d-flex align-items-center justify-content-end">

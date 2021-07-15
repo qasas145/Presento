@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     #tabs_data 
     {
-        margin-left: 3px;
+        margin-left: 0px;
     }
 }
 /* style of the filter_list */
@@ -749,6 +749,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 @media screen and (max-width:600px){
+    #card-one 
+    {
+        margin-left: 10px;
+    }
     .pricing .section-tittle h2 
     {
         font-size: 30px;
