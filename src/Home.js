@@ -292,7 +292,7 @@ const Home=()=>{
                     <div className="tab-content">
                         <div className="tab-pane active show" id="tab-1">
                             <div style={{marginTop :"40px"}} className="row">
-                                <div  data-aos="fade-up" data-aos-delay="100" className="ol-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                                <div  data-aos="fade-up" data-aos-delay="100" className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                                     <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
                                     <p className="fst-italic text-dark">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -316,7 +316,7 @@ const Home=()=>{
                         </div>
                         <div className="tab-pane" id="tab-2">
                             <div style={{marginTop :"40px"}} className="row" >
-                                <div className="ol-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                                <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
                                     <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
                                     <p className="text-dark">
                                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
